@@ -11,8 +11,8 @@ A fun, interactive quiz site for identifying rocks and minerals! Users are prese
 ---
 
 ## Demo
-![Project Screenshot](./screenshot.png) <!-- Make sure you add a screenshot of your project here -->
-Try it live at [Your Website URL](#) <!-- Link to hosted version if available -->
+ ![demo](https://github.com/user-attachments/assets/44b0fdec-599e-4d24-9d2c-ca41bf8e2488)
+Try it live at [(https://geologia.static.domains/index.html)](#)
 
 ## Features
 - Randomly displayed images of rocks and minerals
