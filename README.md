@@ -1,5 +1,7 @@
 # Geology Quiz - Rock & Mineral Identification
 
+!!!MADE IN THE SLOVAK LANGUAGE!!!
+
 A fun, interactive quiz site for identifying rocks and minerals! Users are presented with an image of a rock or mineral and must choose the correct name from multiple-choice options.
 
 ## Table of Contents
