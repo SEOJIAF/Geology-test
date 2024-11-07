@@ -33,6 +33,6 @@ Try it live at [(https://geologia.static.domains/index.html)](#)
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/geology-quiz.git
+   git clone https://github.com/SEOJIAF/geology-test.git
    cd geology-quiz
 
