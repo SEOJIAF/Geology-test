@@ -1,6 +1,6 @@
 // Array of images and answers (assuming images are in an "images" folder)
 const images = [
-  { src: './images/achat.jpg', answer: 'Achát' },
+  { src: './images/achat1.jpg', answer: 'Achát' },
   { src: './images/ametyst.jpg', answer: 'ametyst' },
   { src: './images/andezit.jpg', answer: 'andezit' },
   { src: './images/antimonit.jpg', answer: 'antimonit' },
