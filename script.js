@@ -42,9 +42,7 @@ let currentImageIndex;
 const optionsContainer = document.getElementById('options-container');
 const quizImage = document.getElementById('quiz-image');
 const feedback = document.getElementById('feedback');
-const nextButton = document.getElementById('next-button');
-
-// Load a new random image
+const nextButton = document.getElementById('next-button');// Load a new random image
 function loadRandomImage() {
   optionsContainer.innerHTML = '';
   feedback.textContent = ''; // Clear previous feedback

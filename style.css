@@ -18,7 +18,6 @@
     --foot: #d8d8d8;
 }
 
-/* rest of the CSS remains the same */
 
 
 body {
@@ -45,6 +44,7 @@ body {
     top: 5px;
     right: 5px;
 }
+
 
 #theme-switch svg{
     fill: var(--accent-color)
