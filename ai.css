@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root {
+  --background: #131313;
+  --buttons: #7362ca;
+  --buttons-hover: #ff918d;
+  --button-text:#ffffff;
+  --text: #ffffff;
+  --nadpis: #6f60cc;
+  --popups: #f8f9fa;
+  --podnadpis: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  display: block;
+  font-family: "Montserrat";
+  background-color: var(--background);
+  line-height: 1.4
+}
+
+p {
+  font-size: 16px
+}
+
+header {
+  color: #96BB7C;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#Nadpis {
+  font-size: 16rem;
+  letter-spacing: 10px;
+  top: 60px;
+  background-image: linear-gradient(#6f60cc, #ff918d);
+  color: transparent;
+  background-clip: text;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#podnadpis {
+  font-size: 80px;
+  color: var(--text);
+  margin-bottom: 1rem;
+  margin-top: 10px;
+  text-align: center;
+}
+#podpodnadpis{
+  font-size: 20px;
+  color: var(--text);
+  margin-bottom: 9rem;
+  margin-top: 10px;
+  text-align: center;
+}
+#headbt {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#buttonss {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#space {
+  background: linear-gradient(-45deg, #ff918d 0%, #6f60cc 100%);
+  padding: 9%;  
+  width: 100%;
+  box-sizing: border-box;
+  height: auto; 
+  margin: 0; 
+}
+
+#cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+button {
+  font-family: "Montserrat";
+  margin: 0.5rem 9px;
+  align-self: center;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--button-text);
+  background-color: var(--buttons);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--buttons-hover);
+  transform: scale(1.05);
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  box-shadow: 0 0px 30px #ff918d;
+  padding: 32px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: white;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content .heading {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.content .para {
+  line-height: 1.5;
+}
+
+.content .btn {
+  color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #ff918d 0%, #6f60cc 100%);
+  border-radius: 5px;
+  box-shadow: 0 0px 20px #553fe2;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  height: 100%;
+  background: linear-gradient(-45deg, #ff918d 0%, #6f60cc 100%);
+  z-index: -1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.card:hover::before {
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.card:hover .btn {
+  color: #212121;
+  background: #e8e8e8;
+}
+
+.content .btn:hover {
+  outline: 2px solid #e8e8e8;
+  background: transparent;
+  color: #e8e8e8;
+}
+
+.content .btn:active {
+  transition: 500ms;
+  box-shadow: none;
+  padding: 8px;
+}
+
+#fot{
+  display: flex;
+  justify-content: center;
+  color: #424242;
+}
